@@ -10,6 +10,8 @@
 	<string>DDriver</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>1C47D094BC2CFD5B2710DD8863A230E08632EB1F</key>
+		<string>github.com:fireup/11DDriver.git</string>
 		<key>4935E2FEEB1636D80152B63B805274F87E044C03</key>
 		<string>https://github.com/fireup/DDriver.git</string>
 	</dict>
@@ -17,15 +19,17 @@
 	<string>DDriver.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>4935E2FEEB1636D80152B63B805274F87E044C03</key>
+		<key>1C47D094BC2CFD5B2710DD8863A230E08632EB1F</key>
 		<string>..</string>
+		<key>4935E2FEEB1636D80152B63B805274F87E044C03</key>
+		<string>../../DDriver</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/fireup/DDriver.git</string>
+	<string>github.com:fireup/11DDriver.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>4935E2FEEB1636D80152B63B805274F87E044C03</string>
+	<string>1C47D094BC2CFD5B2710DD8863A230E08632EB1F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>4935E2FEEB1636D80152B63B805274F87E044C03</string>
 			<key>IDESourceControlWCCName</key>
 			<string>DDriver</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1C47D094BC2CFD5B2710DD8863A230E08632EB1F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DDriver2</string>
 		</dict>
 	</array>
 </dict>
