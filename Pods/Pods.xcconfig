@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/Baidu-Maps-iOS-SDK" "${PODS_ROOT}/Headers/CMPopTipView" "${PODS_ROOT}/Headers/MMDrawerController" "${PODS_ROOT}/Headers/TPKeyboardAvoiding"
+LIBRARY_SEARCH_PATHS = $(PODS_ROOT)/Baidu-Maps-iOS-SDK
+ONLY_ACTIVE_ARCH = NO
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers" -isystem "${PODS_ROOT}/Headers/AFNetworking" -isystem "${PODS_ROOT}/Headers/Baidu-Maps-iOS-SDK" -isystem "${PODS_ROOT}/Headers/CMPopTipView" -isystem "${PODS_ROOT}/Headers/MMDrawerController" -isystem "${PODS_ROOT}/Headers/TPKeyboardAvoiding"
+OTHER_LDFLAGS = -ObjC -lBaiduMapApi -lstdc++ -framework CoreGraphics -framework CoreLocation -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework Security -framework SystemConfiguration -framework UIKit
+PODS_ROOT = ${SRCROOT}/Pods
+VALID_ARCHS = armv7 armv7s

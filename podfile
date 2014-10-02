@@ -1,0 +1,5 @@
+pod 'Baidu-Maps-iOS-SDK'
+pod 'AFNetworking', '~> 2.3'
+pod 'TPKeyboardAvoiding'
+pod 'CMPopTipView'
+pod 'MMDrawerController', '~> 0.5.6'

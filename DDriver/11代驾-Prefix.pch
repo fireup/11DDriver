@@ -1,0 +1,41 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+#import "DDDataHandler.h"
+#import "DDAFManager.h"
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define VALIDCITY @"天津市, 北京市, 沈阳市"
+
+#define LOGINURL @"http://admin.11daijia.com/customers/account/v1"
+#define ACCOUNTSAVEURL @"http://admin.11daijia.com/customers/account_save/v1"
+#define VERIFYURL @"http://admin.11daijia.com/customers/account_verify/v1"
+#define LOGOUTURL @"http://admin.11daijia.com/customers/account_logout/v1"
+
+#define DRIVERSNEARBYURL @"http://admin.11daijia.com/customers/drivers_nearby/v1"
+#define DRIVERCOMMENTURL @"http://admin.11daijia.com/customers/comment/v1"
+
+#define PLACEORDERALLDRIVERSURL @"http://admin.11daijia.com/customers/order_oneclick/v1"
+#define MYORDERSURL @"http://admin.11daijia.com/customers/get_order_history/v1"
+#define GETPRICEURL @"http://admin.11daijia.com/customers/get_price/v1"
+#define FEEDBACKURL @"http://admin.11daijia.com/customers/feedback/v1"
+#define COMMENTURL @"http://admin.11daijia.com/customers/comment/v1"
+#define UPDATEURL @"http://admin.11daijia.com/customers/checkupdate/v1"
+
+
+#define DEFAULTLATIDIST 2000
+#define DEFAULTLONGIDIST 2000
+
+
